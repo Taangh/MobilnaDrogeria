@@ -74,6 +74,10 @@ class ParticularProductVC: UIViewController {
         } else {
             Variables.items[index].SetAmount(_amount: amount)
         }
+        
+        let alert = UIAlertView(title: "Dodano", message: "Dodano do koszyka", delegate: self, cancelButtonTitle: "Ok")
+        alert.show()
+
     }
     
     @IBAction func decreaseAmount(_ sender: Any) {

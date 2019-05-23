@@ -57,6 +57,12 @@ class CartVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
         return CartCell()
     }
+    
+    @IBAction func OrderBtnClick(sender _: UIButton) {
+        if Variables.items.count > 0 {
+            performSegue(withIdentifier: "CartVCAdressVC", sender: nil)
+        }
+    }
 
 
 }

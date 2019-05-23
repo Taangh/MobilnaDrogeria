@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D07AB9A201F917F0066FFE6 /* ParticularProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D07AB99201F917F0066FFE6 /* ParticularProductVC.swift */; };
+		2D0CA2E52295AD2C006825EA /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CA2E42295AD2C006825EA /* AddressVC.swift */; };
 		2D2BEC8E1F4F38C000357716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2BEC8D1F4F38C000357716 /* AppDelegate.swift */; };
 		2D2BEC901F4F38C000357716 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2BEC8F1F4F38C000357716 /* CategoriesVC.swift */; };
 		2D2BEC931F4F38C000357716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2BEC911F4F38C000357716 /* Main.storyboard */; };
@@ -25,10 +26,13 @@
 		2DFEFC38201F9A81008FF614 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEFC37201F9A81008FF614 /* CartCell.swift */; };
 		2DFEFC3A201F9B4C008FF614 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEFC39201F9B4C008FF614 /* Item.swift */; };
 		2DFEFC3C20209DE0008FF614 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEFC3B20209DE0008FF614 /* Variables.swift */; };
+		D9F48462A901BC109EBE6088 /* Pods_Internet_store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31ED70A1AD57AD4C5C3AE653 /* Pods_Internet_store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C7E025ED8D1D40BB5CB6CF4 /* Pods-Internet store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internet store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internet store/Pods-Internet store.debug.xcconfig"; sourceTree = "<group>"; };
 		2D07AB99201F917F0066FFE6 /* ParticularProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticularProductVC.swift; sourceTree = "<group>"; };
+		2D0CA2E42295AD2C006825EA /* AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
 		2D2BEC8A1F4F38C000357716 /* Internet store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internet store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2BEC8D1F4F38C000357716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D2BEC8F1F4F38C000357716 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		2DFEFC37201F9A81008FF614 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
 		2DFEFC39201F9B4C008FF614 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2DFEFC3B20209DE0008FF614 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		31ED70A1AD57AD4C5C3AE653 /* Pods_Internet_store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Internet_store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FFE3491507AA94BD4F3796 /* Pods-Internet store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internet store.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internet store/Pods-Internet store.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F48462A901BC109EBE6088 /* Pods_Internet_store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +73,8 @@
 			children = (
 				2D2BEC8C1F4F38C000357716 /* Internet store */,
 				2D2BEC8B1F4F38C000357716 /* Products */,
+				ABABF0893E318AEBEB8BA827 /* Pods */,
+				88689CDBD21FD21D447E0A28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +110,7 @@
 				2D2BECB01F53031C00357716 /* ProductsVC.swift */,
 				2D07AB99201F917F0066FFE6 /* ParticularProductVC.swift */,
 				2DFEFC35201F96B6008FF614 /* CartVC.swift */,
+				2D0CA2E42295AD2C006825EA /* AddressVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -135,6 +145,23 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		88689CDBD21FD21D447E0A28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31ED70A1AD57AD4C5C3AE653 /* Pods_Internet_store.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABABF0893E318AEBEB8BA827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E025ED8D1D40BB5CB6CF4 /* Pods-Internet store.debug.xcconfig */,
+				D0FFE3491507AA94BD4F3796 /* Pods-Internet store.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2BEC9C1F4F38C000357716 /* Build configuration list for PBXNativeTarget "Internet store" */;
 			buildPhases = (
+				C4B4942BF87E24D21B950102 /* [CP] Check Pods Manifest.lock */,
 				2D2BEC861F4F38C000357716 /* Sources */,
 				2D2BEC871F4F38C000357716 /* Frameworks */,
 				2D2BEC881F4F38C000357716 /* Resources */,
+				15C3C389AEDD7C6CFA1D3EC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +232,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15C3C389AEDD7C6CFA1D3EC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Internet store/Pods-Internet store-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BraintreeDropIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Internet store/Pods-Internet store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B4942BF87E24D21B950102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Internet store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D2BEC861F4F38C000357716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -215,6 +293,7 @@
 				2DFEFC3A201F9B4C008FF614 /* Item.swift in Sources */,
 				2DFEFC38201F9A81008FF614 /* CartCell.swift in Sources */,
 				2DFEFC3C20209DE0008FF614 /* Variables.swift in Sources */,
+				2D0CA2E52295AD2C006825EA /* AddressVC.swift in Sources */,
 				2D2BEC8E1F4F38C000357716 /* AppDelegate.swift in Sources */,
 				2D2BECA61F4F3D7000357716 /* CategoryCell.swift in Sources */,
 				2D2BECAD1F52F91300357716 /* ProductCell.swift in Sources */,
@@ -356,15 +435,18 @@
 		};
 		2D2BEC9D1F4F38C000357716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7E025ED8D1D40BB5CB6CF4 /* Pods-Internet store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DL5RY2XKD;
 				INFOPLIST_FILE = "Internet store/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Internet-store";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Internet-store1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,15 +454,18 @@
 		};
 		2D2BEC9E1F4F38C000357716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FFE3491507AA94BD4F3796 /* Pods-Internet store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DL5RY2XKD;
 				INFOPLIST_FILE = "Internet store/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Internet-store";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Internet-store1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
