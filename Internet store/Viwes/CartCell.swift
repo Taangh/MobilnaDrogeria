@@ -10,6 +10,7 @@ import UIKit
 
 class CartCell: UITableViewCell {
     @IBOutlet weak var minutBtn: UIButton!
+    @IBOutlet weak var plusBtn: UIButton!
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var amountLbl: UITextField!
     @IBOutlet weak var imageImg: UIImageView!

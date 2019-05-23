@@ -327,6 +327,7 @@
                                             <outlet property="amountLbl" destination="oQ9-zQ-OKW" id="JDq-rB-Lrf"/>
                                             <outlet property="imageImg" destination="vrz-Ce-gMj" id="mco-vp-3ce"/>
                                             <outlet property="minutBtn" destination="Beb-Fk-CUT" id="CvN-Eq-Ca9"/>
+                                            <outlet property="plusBtn" destination="i3K-MG-BFp" id="4nd-rb-fhQ"/>
                                             <outlet property="priceLbl" destination="0KE-7K-DTV" id="hcz-bV-7SY"/>
                                             <outlet property="titleLbl" destination="Zr8-C0-E8l" id="gmS-FB-kxV"/>
                                         </connections>
